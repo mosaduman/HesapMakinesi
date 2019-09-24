@@ -1,0 +1,57 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+	background-color: white;
+}
+
+#hesapmakinesi{
+    background-color: red;
+    width: 430px;
+    height: 500px;
+    min-width: 300px;
+    min-height: 400px;
+    margin:40px auto;
+    border-radius:20px;
+    padding:40px 3px 10px 3px;
+}
+#goruntu{
+	background-color:white;
+	width:370px;
+margin:10px auto;
+	   border-radius:10px;
+	height: 180px;
+}
+#gecmis{
+	text-align: right;
+	height: 40px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 25px;
+	color: #919191;
+}
+#sonuc{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+}
+#tus{
+	
+width:380px;
+margin:0 auto;
+}
+
+.operator, .rakam{
+	cursor:pointer;
+ width:60px;
+	height: 47px;
+  margin:5px;
+    border-radius:10px;
+    font-size:30px;
+	
+	outline:0;
+}
+
+.operator:hover, .number:hover{
+ background-color:deeppink;
+       color:white;
+	   }
